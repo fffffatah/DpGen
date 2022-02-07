@@ -6,7 +6,7 @@ Sample [Here](https://github.com/fffffatah/DpGen/blob/master/Sample/dp.jpeg)
 ## How to Use
 First, add the package to your project via Nuget Package manager or running the following command in project directory.
 ```sh
-Install-Package fffffatah.DpGen -Version 1.0.0
+Install-Package DpGen -Version 1.0.0
 ```
 
 >Example use case,
