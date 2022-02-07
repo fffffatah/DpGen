@@ -5,7 +5,26 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageIcon>dp.jpeg</PackageIcon>
+    <Description>Generate Image from the First Character of a String</Description>
+    <Copyright>fffffatah</Copyright>
+    <PackageProjectUrl>https://github.com/fffffatah/DpGen</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/fffffatah/DpGen</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\Sample\dp.jpeg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
